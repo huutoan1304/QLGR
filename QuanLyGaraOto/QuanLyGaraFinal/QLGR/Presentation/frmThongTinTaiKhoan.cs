@@ -51,12 +51,12 @@ namespace QLGR.Presentation
             txtDiaChi.Text = dt.Rows[0]["DIACHI"].ToString();
             string chucVu = dt.Rows[0]["QUYEN"].ToString();
             quyen = chucVu.Trim();
-            if (chucVu == "GIAMDOC   ")
-                txtChucVu.Text = "Giám đốc";
-            else if (chucVu == "QUANLI    ")
-                txtChucVu.Text = "Quản lí";
-            else if (chucVu == "NHANVIEN  ")
-                txtChucVu.Text = "Nhân viên";
+            //if (chucVu == "GIAMDOC   ")
+            //    //txtChucVu.Text = "Giám đốc";
+            //else if (chucVu == "QUANLI    ")
+            //    txtChucVu.Text = "Quản lí";
+            //else if (chucVu == "NHANVIEN  ")
+            //    txtChucVu.Text = "Nhân viên";
         }
     }
 }

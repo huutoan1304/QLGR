@@ -11,7 +11,7 @@ namespace QLGR.Presentation
         public static string quyen;
 
         frmLapPhieuSuaChua _frmLapPhieuSuaChua;
-        string bienSo;
+       // string bienSo;
 
         public frmMain()
         {
@@ -25,25 +25,25 @@ namespace QLGR.Presentation
         //    PhanQuyen();
         //}
 
-        void PhanQuyen()
-        {
-            if (quyen.Trim() == "QUANLI")
-            {
-                btnTiepNhan.Enabled = false;
-                btnLapPhieuSuaChua.Enabled = false;
-                btnLapPhieuThuTien.Enabled = false;
-            }
-            else if (quyen.Trim() == "NHANVIEN")
-            {
-                btnBaoCaoDoanhSo.Enabled = false;
-                btnPhuTungTon.Enabled = false;
-                btnTienCong.Enabled = false;
-                btnPhuTung.Enabled = false;
-                btnQuyDinh.Enabled = false;
-                //btnQuanLyNhanVien.Enabled = false;
-                btnHieuXe.Enabled = false;
-            }
-        }
+        //void PhanQuyen()
+        //{
+        //    if (quyen.Trim() == "QUANLI")
+        //    {
+        //        btnTiepNhan.Enabled = false;
+        //        btnLapPhieuSuaChua.Enabled = false;
+        //        btnLapPhieuThuTien.Enabled = false;
+        //    }
+        //    else if (quyen.Trim() == "NHANVIEN")
+        //    {
+        //        btnBaoCaoDoanhSo.Enabled = false;
+        //        btnPhuTungTon.Enabled = false;
+        //        btnTienCong.Enabled = false;
+        //        btnPhuTung.Enabled = false;
+        //        btnQuyDinh.Enabled = false;
+        //        //btnQuanLyNhanVien.Enabled = false;
+        //        btnHieuXe.Enabled = false;
+        //    }
+        //}
         #region Ribbon button
         private void btnTiepNhan_Click(object sender, EventArgs e)
         {
